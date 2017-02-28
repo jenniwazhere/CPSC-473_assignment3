@@ -10,8 +10,8 @@ function getLinks() {
 }
 
 function initializeEvents() {
-    var link = getLinks();
-    link.forEach(addLinkClickHandler);
+    var links = getLinks();
+    links.forEach(addLinkClickHandler);
 }
 
 initializeEvents();
